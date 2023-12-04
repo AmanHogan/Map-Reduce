@@ -1,0 +1,97 @@
+Reduced Output Console Logs for various M/R Runs
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+3 m 1r					 
+2023-12-02 15:37:49,409 INFO mapreduce.Job:  map 0% reduce 0%
+...
+2023-12-02 15:42:55,333 INFO mapreduce.Job: Counters: 51
+        File System Counters
+                FILE: Number of bytes read=2135150509
+                FILE: Number of bytes written=3100538357
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=1775567616
+                HDFS: Number of bytes written=125093
+                HDFS: Number of read operations=14
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+                HDFS: Number of bytes read erasure-coded=0
+        Job Counters
+                Killed map tasks=1
+                Launched map tasks=4
+                Launched reduce tasks=1
+                Rack-local map tasks=4
+                Total time spent by all maps in occupied slots (ms)=976420
+                Total time spent by all reduces in occupied slots (ms)=480664
+                Total time spent by all map tasks (ms)=488210
+                Total time spent by all reduce tasks (ms)=240332
+                Total vcore-milliseconds taken by all map tasks=488210
+                Total vcore-milliseconds taken by all reduce tasks=240332
+                Total megabyte-milliseconds taken by all map tasks=999854080
+                Total megabyte-milliseconds taken by all reduce tasks=492199936
+        Map-Reduce Framework
+                Map input records=38315671
+                Map output records=29252055
+                Map output bytes=905965174
+                Map output materialized bytes=964474767
+                Input split bytes=743
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=9101808
+                Reduce shuffle bytes=964474767
+                Reduce input records=29252055
+                Reduce output records=1515
+                Spilled Records=93275329
+                Shuffled Maps =3
+                Failed Shuffles=0
+                Merged Map outputs=3
+                GC time elapsed (ms)=1537
+                CPU time spent (ms)=0
+                Physical memory (bytes) snapshot=0
+                Virtual memory (bytes) snapshot=0
+                Total committed heap usage (bytes)=2108686336
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=0
+        File Output Format Counters
+                Bytes Written=125093
+...
+...
+2023-12-02 15:42:55,333 INFO mapreduce.Job: Counters: 51
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+3m 2r
+2023-12-02 15:47:18,480 INFO mapreduce.Job:  map 0% reduce 0%
+...
+...
+2023-12-02 15:50:26,444 INFO mapreduce.Job: Job job_1701552844163_0002 completed successfully
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+3m 3r
+2023-12-02 15:54:21,368 INFO mapreduce.Job:  map 0% reduce 0%
+023-12-02 15:57:52,644 INFO mapreduce.Job: Job job_1701552844163_0003 completed successfully
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+5m 1r					 
+2023-12-02 15:37:49,409 INFO mapreduce.Job:  map 0% reduce 0%
+...
+...
+2023-12-02 15:42:55,333 INFO mapreduce.Job: Counters: 51
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+6m 1r
+2023-12-02 16:04:04,780 INFO mapreduce.Job:  map 0% reduce 0%
+...
+...
+2023-12-02 16:06:50,602 INFO mapreduce.Job:  map 100% reduce 100%

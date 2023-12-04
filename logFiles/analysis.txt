@@ -1,0 +1,14 @@
+5 minutes 5 seconds, 3m 1r:
+Total time: 5 mins 5 secs
+////////////////////////////////////
+3 minutes and 3 seconds, 3m 2r:
+Total time: 3 mins 3 secs
+////////////////////////////////////
+3 mins 32 seconds, 3m 3r:
+Total time: 3 mins 32 secs
+////////////////////////////////////
+3 mins and 30 seconds, 5m 1r:
+Total time: 3 mins 30 secs
+////////////////////////////////////
+2 mins and 45 seconds, 6m 1r:
+Total time: 2 mins 45 secs
